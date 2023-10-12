@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F1F3F6;
+    display: flex;
+    font-family: 'Poppins';
+}
+
+.login {
+    width: 420px;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    padding: 0 30px;
+}
+
+.logo {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo p {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: #555555;
+}
+
+.login-container {
+
+    margin: 0 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    background-color: #F1F3F6;
+    color: #555555;
+    margin: 0 10ppx ;
+}
+
+input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    resize: vertical;
+    background-color:#F1F3F6;
+    color: #555555;
+}
+
+.form-group p {
+    text-align: right;
+    padding-top: 0;
+    text-decoration: underline;
+   
+}
+
+.form-group1 {
+    display: flex;
+
+}
+
+.form-group1 .icon-password, .icon-email, .icon-password-konfirm {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+
+.tombol{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tombol img {
+    padding:20px 0;
+}
+
+
+.tombol button {
+    border-radius: 5px;
+    border: none;
+    background-color: #016A70;
+    color: #FFFFFF;
+    font-weight: 200;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: bolder;
+
+}
+
+.tomboldaftar button {
+    border-radius: 5px;
+    border: 1px solid #016A70;
+    background-color: #fff;
+    color:#016A70;
+    font-weight: 200;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: bolder;
+}
+
+.tomboldaftar p {
+    text-align: center;
+    color: #C2C2C2;   
+}
+
+.tomboldaftar a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #016A70;
+}
+
+
+.tombol-dengan-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3498db; /* Warna latar belakang tombol */
+    color: #ffffff; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Gaya icon */
+  .icon {
+    width: 20px; /* Sesuaikan lebar ikon */
+    height: 20px; /* Sesuaikan tinggi ikon */
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+  }
+
+.img-ill {
+    margin: 0 auto;
+}
+
+  
