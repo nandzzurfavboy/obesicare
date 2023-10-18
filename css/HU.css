@@ -573,13 +573,9 @@ a {
   width: 30px;
 }
 
-#footer {
-  height: 60vh;
+#footer img {
   width: 100%;
-  background-image: url(/img/footer.png);
-
 }
-
 
 
 
