@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #016a70;
+  font-family: 'poppins';
+}
+
+#home {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  background-color: #016a70;
+
+}
+ul {
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+nav { 
+  margin: 30px 110px 0;
+  justify-content:space-between;
+  display: flex;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  z-index: 1;
+  width: 86%;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 300px;
+}
+  
+nav ul li a {
+  padding: 5px 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: 650;
+  font-weight: 100;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.beranda p:nth-child(1) {
+  color: white;
+  font-size: 25px;
+  font-weight: 550;
+  padding-bottom:5%;
+  padding-left: 450px;
+}
+  
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+}
+  
+.logo img {
+  height: 50px;
+  width:  150px;
+}
+
+  
+.huruf {
+  font-weight: bold;
+  color: #016a70;
+}
+
+
+.beranda {
+  position: absolute;
+  left: 6%;
+  top: 1%;
+  right: 10%;
+  transform: translate(7.5%, 40%);
+  line-height: 0px;
+  margin-top: 70px;
+}
+
+.picture {
+  width: 470px;
+  height: auto;
+  position: absolute;
+  left: 29%;
+  top: 18%;
+  transform: translate(-70%);
+}
+
+.gambar {
+  width: 315px;
+  height: auto;
+  position: absolute;
+  left: 859px;
+  top: 28%;
+  transform: translate(-70%);
+}
+
+.gambars   {
+  width: 1100px;
+  height: auto;
+  position: absolute;
+  left: 58%;
+  top: 83%;
+  transform: translate(-70%);
+  padding-bottom: 50px;
+}
+
+.ros   {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 80%;
+  top: 43%;
+  transform: translate(-70%);
+  
+}
+
+
+
+
+
+
