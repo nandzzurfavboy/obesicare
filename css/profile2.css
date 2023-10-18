@@ -332,7 +332,27 @@ input[type=password], select, textarea {
   min-height: 33px;
   white-space: nowrap;
 }
+.buton {
+    margin-left: 40px;
+}
 
+.buton .buton1 {
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    font-family: 'Poppins';
+    height: 40px;
+    width: 100px;
+
+}
+
+.buton .buton2 {
+    font-size: 28px;
+    font-family: 'Poppins';
+    height: 40px;
+    width: 100px;
+
+}
 
 
 
