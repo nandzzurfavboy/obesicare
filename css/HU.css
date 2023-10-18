@@ -1,0 +1,587 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  font-family: 'poppins';
+}
+
+#home {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+  background-color: #016a70;
+
+}
+ul {
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+}
+  
+nav { 
+  margin: 30px 110px 0;
+  justify-content:space-between;
+  display: flex;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: fixed;
+  z-index: 1;
+  width: 86%;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 300px;
+}
+  
+nav ul li a {
+  padding: 5px 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: 650;
+  font-weight: 100;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 50px;
+}
+  
+.logo img {
+  height: 50px;
+  width:  150px;
+}
+
+  
+.huruf {
+  font-weight: bold;
+  color: #016a70;
+}
+
+
+.beranda {
+  position: absolute;
+  left: 6%;
+  top: 1%;
+  right: 10%;
+  transform: translate(7.5%, 40%);
+  line-height: 0px;
+  margin-top: 70px;
+}
+
+
+  
+.picture img { 
+  position: absolute;
+  width: 470px;
+  height: auto;
+  left: 80%;
+  right: 20%;
+  top: 25%;
+  transform: translate(-70%);
+}
+
+
+.beranda p:nth-child(1) {
+  color: white;
+  font-size: 30px;
+  font-weight: 550;
+  padding-bottom: 10px;
+}
+  
+.beranda p:nth-child(2) {
+  width: 100%;
+  color: #ffffdd;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+  
+.beranda p:nth-child(3) {
+  width: 100%;
+  color: #ffffdd;
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+  
+.beranda p:nth-child(4) {
+  color: white;
+  font-size: 14px;
+  line-height: normal;
+  text-align: justify;
+  max-width: 43%;
+}
+
+#Informasi {
+  height: 115vh;
+  margin-bottom: 0;
+
+}
+
+#Informasi h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #016a70;
+  margin-left: 150px;
+  padding-top: 50px;
+}
+
+.info12, .info34 {
+  display: flex;
+
+}
+
+.info1, .info3{
+  width: 470px;
+  box-shadow: 0 4px 0px 0 black;
+  border-radius: 30px;
+  background-color: #016a70;
+  padding: 20px 30px;
+  margin: 20px 20px 20px 150px;
+}
+
+.info2,.info4 {
+  width: 470px;
+  box-shadow: 0 4px 0px 0 black;
+  border-radius: 30px;
+  background-color: #016a70;
+  padding: 20px 30px;
+  margin: 20px 20px;
+}
+
+.apa1 {
+  color: #016a70;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 29px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-left: 10px;
+  line-height: 14px;
+}
+
+.apa5 {
+  color: #016a70;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 27px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-left: 10px;
+  line-height: 10px;
+}
+
+
+.info4 .apa img {
+  width: 160px;
+  height: 180px;
+  margin-left: 110px;
+  margin-top: 25px;
+}
+
+.apa img {
+  width: 160px;
+  height: 180px;
+  margin-left: 95px;
+  margin-top: 25px;
+}
+
+.lihat p {
+  color: #fff;
+}
+
+.lihat img {
+  height: 40px;
+  width: 40px;
+  padding: 5px 10px;
+}
+.apa, .apa4, .lihat {
+  display: flex;
+}
+
+.lihat a {
+  display: flex;
+  align-items: center;
+}
+
+#diet {
+  height: 60vh;
+}
+
+#diet h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #016a70;
+  margin-left: 150px;
+  padding-top: 50px;
+}
+
+.rekomendasi {
+  display: flex;
+  width: 74%;
+  box-shadow: 0 4px 0px 0 black;
+  border-radius: 30px;
+  background-color: #016a70;
+  padding: 20px 30px;
+  margin: 20px 20px 20px 150px;
+  color: #fff;
+}
+
+.rekomendasi p {
+  font-size: 14px;
+}
+
+.rekomendasi h3 .isian {
+  font-size: 25px;
+  color: #016a70;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 1px;
+}
+
+.dietdash, .defisitkalori, .dietvegan {
+  max-width: 25%;
+  max-height: 230px;
+  text-align: justify;
+  margin: 2px 4%;
+}
+
+
+.defisitkalori, .dietdash{
+  border-right: 1px solid #fff;
+  padding-right: 80px;
+}
+
+
+.lihat2 p {
+  color: #fff;
+  font-size: 15px;
+
+}
+
+.lihat2 img {
+  height: 14px;
+  width: 14px;
+  margin-left: 5px;
+}
+
+.lihat2 a {
+  display: flex;
+  align-items: center;
+}
+
+#resep {
+  height: 65vh;
+}
+
+.resep1 {
+  display: flex;
+}
+
+#resep h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #016a70;
+  margin-left: 150px;
+  padding-top: 50px;
+}
+
+.jresep {
+  max-width: 270px;
+  background-color: #016a70;
+  box-shadow: 0 4px 0px 0 black;
+  border-radius: 30px;
+  padding: 20px 30px;
+  margin: 20px 20px 20px 150px;
+  color: #fff;
+}
+
+.jresep h3 .isian  {
+  font-size: 20px;
+  color: #016a70;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin-left: 20px;
+}
+
+.sarapan, .siang , .malam , .sehat , .minuman , .lauk {
+  margin-left: 30px;
+}
+
+.sarapan p, .siang p, .malam p, .sehat p, .minuman p, .lauk p{
+  color: #fff;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 0;
+  font-weight: 400;
+}
+.sarapan a, .siang a, .malam a, .sehat a, .minuman a, .lauk a{
+  display: flex;
+  align-items: center;
+  
+}
+
+.sarapan a img , .siang a img, .malam a img, .sehat a img, .minuman a img, .lauk a img {
+  height: 30px;
+  width: 30px;
+}
+
+.lainnya p {
+  color: #fff;
+  margin-left: 80px;
+  font-size: 16px;
+  line-height: 0;
+  font-weight: 400;
+}
+
+.list-rek {
+  background-color: #016a70;
+  width: 750px;
+  height: 80px;
+  border-radius: 25px;
+  box-shadow: 0 4px 0px 0 black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gambar img {
+  margin-left: 20px; 
+  width: 90px;
+  margin-top: 5px;
+}
+.rresep h4 {
+  color:#016a70;
+  font-size: 20px;
+}
+
+.rresep .disk {
+  margin-left: 30px;
+  color: #fff;
+ 
+}
+
+.rresep .disk p:nth-child(3), .rresep .disk p:nth-child(2) {
+ font-size: 12px;
+ line-height: 0;
+}
+
+.rresep .disk p:nth-child(3){
+  padding-bottom: 20px;
+}
+
+.rresep .disk a {
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.judul {
+
+  transform: translate(0%, 9%);
+  color: #016a70;
+}
+
+#hitungkalori {
+  height: 100vh;
+}
+
+.judul {
+  color: #016a70;
+  margin-left: 150px;
+}
+
+.judul h1 {
+  font-size: 35px;
+}
+
+.picture {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  border-radius: 15px;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 39%;
+  padding: 12px;
+  border: 1px solid #016a70;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.judul input[type='submit'] {
+  background: transparent;
+  color: #016a70;
+  border: none;
+  padding: 5px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1.1px solid #016a70;
+  left: 40%;
+  bottom: -100px;
+}
+
+.gender-buttons {
+  margin-top: 20px;
+}
+
+.gender-button {
+  width: 20%;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.25);
+}
+
+.gender-button:hover {
+  background-color: #12616b;
+}
+
+.gender-button:active {
+  transform: scale(1.1);
+}
+
+#female {
+  background: transparent;
+  color: #016a70;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1.1px solid #016a70;
+}
+
+#male {
+  background: transparent;
+  color: #016a70;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1.1px solid #016a70;
+}
+
+.komunitas input[type='submit'] {
+  background-color: #016a70;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1.1px solid #016a70;
+}
+
+.komunitas h1 {
+  color: #016a70;
+  font-size: 35px;
+}
+
+.komunitas {
+  color: #016a70;
+  margin-left: 75px;
+}
+
+.card-group {
+  display: flex;
+  color: #016a70;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 12px 12px;
+  background-color: #ffffff;
+}
+
+.card h5, .card p:nth-child(2) {
+  color: #363A3D; 
+  font-size: 20px;
+  line-height: 0;
+}
+
+.card p:nth-child(3) {
+  color: #016a70;
+}
+
+.card p:nth-child(4) {
+  color: #6D737A;
+}
+
+
+.card img {
+  height: 150px;
+  width: 350px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.prof {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0px 10px;
+  margin-bottom: 10px;
+}
+
+.prof p {
+  margin-left: 10px;
+}
+.prof img, .icon5 img {
+  height: 30px;
+  width: 30px;
+}
+
+#footer {
+  height: 60vh;
+  width: 100%;
+  background-image: url(/img/footer.png);
+
+}
+
+
+
+
+
+
