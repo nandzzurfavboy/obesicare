@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #016a70;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  height: 70px;
+  right: 150px;
+  left: 150px;
+  top: 20px;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  padding: 10px;
+  margin: 10px;
+  font-family: Poppins;
+  color: black;
+  font-size: 18px;
+  font-weight: 650;
+  font-weight: 100;
+}
+
+.logo {
+  padding: 20px;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #016a70;
+  font-size: 25px;
+  font-weight: bold;
+  left: 0px;
+  position: absolute;
+  transform: rotate(-0.83deg);
+  transform-origin: 0 0;
+}
+
+.logo1 {
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.huruf {
+  font-weight: bold;
+  color: #016a70;
+}
+
+#beranda {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+}
+
+.beranda {
+  word-wrap: break-word;
+  width: 800px;
+  position: absolute;
+  transform: translate(75%, 23%);
+}
+
+.beranda p:nth-child(1) {
+  color: white;
+  font-size: 28px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.beranda p:nth-child(2) {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.beranda p:nth-child(3) {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.beranda p:nth-child(4) {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.beranda p:nth-child(5) {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.beranda p:nth-child(6) {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 200;
+}
+
+.beranda p:nth-child(7) {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 200;
+  transform: translate(0px, 40px);
+}
+
+.picture {
+  width: 421px;
+  height: 531px;
+  transform: translate(36%, 25%);
+}
+
+img {
+  width: 80%;
+}
+
+.picture2 {
+  width: 30%;
+}
