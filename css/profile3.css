@@ -314,4 +314,25 @@ input[type=text], select, textarea {
     margin-left: 440px;
     line-height: 61px;
   }
+.buton {
+    margin-left: 40px;
+}
+
+.buton .buton1 {
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    font-family: 'Poppins';
+    height: 40px;
+    width: 100px;
+
+}
+
+.buton .buton2 {
+    font-size: 28px;
+    font-family: 'Poppins';
+    height: 40px;
+    width: 100px;
+
+}
 
