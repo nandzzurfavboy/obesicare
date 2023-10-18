@@ -8,7 +8,7 @@ document.getElementById('bmiForm').addEventListener('submit', function (e) {
   // var jenisKelamin = document.querySelector('input[name="jenisKelamin"]:checked').value;
   if (isNaN(berat) || isNaN(tinggi) || isNaN(usia)) {
     // Menampilkan pesan jika ada input yang kosong
-    alert('Mohon isi semua data terlebih dahulu');
+    alert('Mohon isi semua data terlebih dahulu dengan benar dan menggunakan Angka');
     return;
   }
   // Menghitung BMI

@@ -82,13 +82,13 @@ nav ul li a {
 
 
   
-.picture img { 
+.picture10 img { 
   position: absolute;
   width: 470px;
   height: auto;
   left: 80%;
   right: 20%;
-  top: 25%;
+  top: 22%;
   transform: translate(-70%);
 }
 
@@ -283,7 +283,7 @@ nav ul li a {
 }
 
 #resep {
-  height: 65vh;
+  height: 74vh;
 }
 
 .resep1 {
